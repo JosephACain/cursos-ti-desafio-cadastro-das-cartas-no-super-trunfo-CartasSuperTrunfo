@@ -38,6 +38,20 @@ int main(){
     printf("Digite o Número de Pontos Turisticos: \n");
     scanf("%d", &ptur1);
 
+    //Dados cadastrados - Carta 01
+    
+    printf("\nCarta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", cidade1);
+    printf("População: %d\n", hab1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f bilhões de reais\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n", ptur1);
+        
+    //Alternativa usando uma linha de código
+    //printf("\nCarta1:\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d \n", estado1, codigo1, cidade1, hab1, area1, pib1, ptur1);
+    //---------------------------------------------------------------------------------- 
     //Cadastro Carta 02
     printf("\nCadastre a Carta 2:\n");
 
@@ -62,24 +76,6 @@ int main(){
     printf("Digite o Número de Pontos Turisticos: \n");
     scanf("%d", &ptur2);
 
-    //----------------------------------------------------------------------------------
-
-    printf("\nCartas Cadastradas:\n");
-
-    //Dados cadastrados - Carta 01
-    
-    printf("\nCarta 1:\n");
-    printf("Estado: %c\n", estado1);
-    printf("Código: %s\n", codigo1);
-    printf("Nome da Cidade: %s\n", cidade1);
-    printf("População: %d\n", hab1);
-    printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais\n", pib1);
-    printf("Número de Pontos Turísticos: %d\n", ptur1);
-        
-    //Alternativa usando uma linha de código
-    //printf("\nCarta1:\nEstado: %c\nCódigo: %s\nNome da Cidade: %s\nPopulação: %d\nÁrea: %.2f km²\nPIB: %.2f bilhões de reais\nNúmero de Pontos Turísticos: %d \n", estado1, codigo1, cidade1, hab1, area1, pib1, ptur1);
-    
     //Dados cadastrados Carta 02
     
     printf("\nCarta 2:\n");
